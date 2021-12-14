@@ -1,0 +1,62 @@
+/*Encabezado*/
+
+@import '../base/variables';
+
+.menu-principal{
+    font-family: $fontFamilyPrimaria;
+    border-bottom: 2px solid;
+    border-color: $fontColorSecundario;
+    width: 100%;
+    padding-bottom: 0rem;
+    font-size: 0.75rem;
+    text-align: center;
+    z-index: 1000;
+}
+
+.menu-fixed{
+    position: fixed;
+    top:0px;
+}
+
+.titulo-principal{
+    font-size: 1rem;
+    font-family: $fontFamilyPrimaria;
+    color: $fontColorPrimario;
+    padding: 1rem;
+}
+
+.logo{
+    width: 40%;
+    padding-top: 5rem;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+header {
+    nav { 
+        ul{
+            li {
+                display:inline-block;
+                padding-right: 1rem;
+                padding-top: 1rem;
+            }
+        }
+    }
+}
+
+@keyframes aparecer{
+    
+    0%{opacity:0;}  
+    25%{opacity: 0.25;}
+    50%{opacity: 0.5;}
+    75%{opacity: 0.75;}  
+    100%{opacity: 1;}
+}
+
+
+.img-animada{
+    animation-name: aparecer;
+    animation-duration: 1.5s;
+}

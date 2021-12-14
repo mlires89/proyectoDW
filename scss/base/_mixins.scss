@@ -1,0 +1,7 @@
+ @mixin flex-style ($jcontent, $aitems , $fwrap, $width){
+display: flex;
+justify-content: $jcontent;
+align-items: $aitems;
+flex-wrap: $fwrap;
+width: $width;
+ }

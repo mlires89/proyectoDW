@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Rubik&display=swap");
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: #eff3f4;
+}
+
+div h3, .seccion h2 {
+  font-family: "Rubik", sans-serif;
+  color: #1066c9;
+  font-size: 1rem;
+}
+
+div h3, .seccion h2 {
+  font-family: "Rubik", sans-serif;
+  color: #1066c9;
+  font-size: 1rem;
+}
+
+.seccion {
+  width: 100%;
+  font-family: "Karla", sans-serif;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  margin-bottom: 5rem;
+}
+.seccion h2 {
+  border-bottom-color: #f05aa0;
+  border-bottom-style: solid;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-container-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-item {
+  padding: 1rem;
+  width: 250px;
+}
+
+.grilla {
+  display: grid;
+  grid-template-areas: "header" "nosotros " "novedades " "menu-sec " "contacto " "footer";
+  grid-template-rows: 0, 9fr 0, 9fr 0, 9fr 0, 9fr 0, 9fr 0, 25fr;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+}
+
+section#nosotros {
+  grid-area: nosotros;
+}
+
+section#novedades {
+  grid-area: novedades;
+}
+
+section#menu {
+  grid-area: menu-sec;
+}
+
+section#contacto {
+  grid-area: contacto;
+}
+
+/*Encabezado*/
+.menu-principal {
+  font-family: "Rubik", sans-serif;
+  border-bottom: 2px solid;
+  border-color: #1066c9;
+  width: 100%;
+  padding-bottom: 0rem;
+  font-size: 0.75rem;
+  text-align: center;
+  z-index: 1000;
+}
+
+.menu-fixed {
+  position: fixed;
+  top: 0px;
+}
+
+.titulo-principal {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  color: #f05aa0;
+  padding: 1rem;
+}
+
+.logo {
+  width: 40%;
+  padding-top: 5rem;
+}
+
+.encabezado {
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.img-animada {
+  animation-name: aparecer;
+  animation-duration: 1.5s;
+}
+
+/*Seccion nosotros*/
+.img {
+  width: 100%;
+}
+
+.parrafo-principal {
+  padding: 1rem;
+  font-family: "Karla", sans-serif;
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+/*Seccion novedades*/
+.carrousell {
+  width: 100%;
+}
+
+/*Seccion Menu*/
+div h3, .seccion h2 {
+  font-family: "Rubik", sans-serif;
+  color: #1066c9;
+  font-size: 1rem;
+}
+
+div ul {
+  font-size: 0.75rem;
+  padding: 0px;
+}
+/*Footer*/
+.pie {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  color: #f05aa0;
+}
+.pie h3 {
+  text-align: center;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-family: "Karla", sans-serif;
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.social-item {
+  display: flex;
+  width: 200px;
+  padding: 0.5rem;
+}
+
+.icono {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+
+.gradiente {
+  background-image: linear-gradient(#eff3f4, #f5bfea);
+}
+
+/*# sourceMappingURL=style.css.map */

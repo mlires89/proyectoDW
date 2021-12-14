@@ -1,0 +1,62 @@
+@import '../base/variables';
+@import '../base/extends';
+@import '../base/mixins';
+.seccion{
+    width: 100%;
+    font-family: $fontFamilySecundaria;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin-bottom: 5rem;
+        h2 { 
+            @extend %subtitulo;
+            border-bottom-color: $fontColorPrimario;
+            border-bottom-style: solid;
+        }
+}
+
+.flex-container{
+    @include flex-style(flex-start,flex-start,wrap,100%);
+}
+
+.flex-container-center{
+    @include flex-style(space-around,center,wrap,100%);
+}
+
+.flex-center{
+    @include flex-style(center,center,wrap,100%);
+}
+.flex-item{
+    
+    padding: 1rem;
+    width: 250px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nosotros "
+    "novedades "
+    "menu-sec "
+    "contacto "
+    "footer";
+    grid-template-rows: 0,9fr 0,9fr 0,9fr 0,9fr 0,9fr 0,25fr;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    
+}
+
+section#nosotros{
+    grid-area: nosotros;
+    
+}
+section#novedades{
+    grid-area: novedades;
+}
+section#menu{
+    grid-area: menu-sec ;
+}
+section#contacto{
+    grid-area: contacto;
+}

@@ -1,0 +1,15 @@
+/*Seccion Menu*/
+@import '../base/variables';
+@import '../base/extends';
+
+div {
+    ul{
+        font-size: 00.75rem;
+        padding: 0px;
+    }
+    h3{
+        @extend %subtitulo;
+        }
+   
+}
+

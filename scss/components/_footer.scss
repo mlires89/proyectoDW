@@ -1,0 +1,43 @@
+/*Footer*/
+
+@import '../base/variables';
+
+
+.pie {
+    font-family: $fontFamilySecundaria;
+    font-size: 1rem;
+    color: $fontColorPrimario;
+        h3{
+            text-align: center;
+            margin-top: 0.5rem;
+            padding-bottom: 1rem;
+            font-family: $fontFamilySecundaria;
+            font-size: 0.75rem;
+            width: 100%;
+        }
+}
+
+.social-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap:wrap;
+}
+
+.social-item{
+    display: flex;
+    width: 200px;
+    padding: 00.5rem;
+   
+}
+
+.icono{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.gradiente{
+    background-image: linear-gradient($colorFondoPrincipal, $colorFondoSecundario);
+}
