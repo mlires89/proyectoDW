@@ -15,16 +15,16 @@ body {
   background-color: #eff3f4;
 }
 
-div h3, .seccion h2 {
+.seccion h2, .seccion h3 {
   font-family: "Rubik", sans-serif;
   color: #1066c9;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
-div h3, .seccion h2 {
+.seccion h2, .seccion h3 {
   font-family: "Rubik", sans-serif;
   color: #1066c9;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .seccion {
@@ -34,6 +34,10 @@ div h3, .seccion h2 {
   padding-left: 1rem;
   padding-right: 2rem;
   margin-bottom: 5rem;
+}
+.seccion ul {
+  font-size: 1rem;
+  padding: 0px;
 }
 .seccion h2 {
   border-bottom-color: #f05aa0;
@@ -166,22 +170,48 @@ header nav ul li {
   text-align: left;
 }
 
+.sombreado {
+  text-shadow: 5px 5px 5px gray;
+}
+
 /*Seccion novedades*/
 .carrousell {
   width: 100%;
 }
 
-/*Seccion Menu*/
-div h3, .seccion h2 {
-  font-family: "Rubik", sans-serif;
-  color: #1066c9;
-  font-size: 1rem;
+.seccion#novedades {
+  box-shadow: 0px 0px 20px #f05aa0 inset, 0px 0px 30px #f5bfea;
 }
 
-div ul {
-  font-size: 1rem;
-  padding: 0px;
+/*Seccion Menu*/
+.seccion h3, .seccion h2 {
+  font-family: "Rubik", sans-serif;
+  color: #1066c9;
+  font-size: 0.9rem;
 }
+
+.seccion#menu {
+  background-image: url("../multimedia/imagen/bg-menu.png");
+  background-repeat: repeat;
+}
+.seccion#menu li {
+  text-decoration: solid;
+}
+
+.bg-transparente {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.text-sombreado {
+  color: #fff;
+  font-size: 15vw;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
 /*Footer*/
 .pie {
   font-family: "Karla", sans-serif;

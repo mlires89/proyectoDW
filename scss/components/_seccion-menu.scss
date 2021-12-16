@@ -2,14 +2,29 @@
 @import '../base/variables';
 @import '../base/extends';
 
-div {
-    ul{
-        font-size: 1rem;
-        padding: 0px;
-    }
-    h3{
-        @extend %subtitulo;
+.seccion#menu{
+    background-image: url("../multimedia/imagen/bg-menu.png") ;
+    background-repeat: repeat;
+        li{
+            text-decoration: solid;
         }
-   
 }
 
+.bg-transparente{
+    background: rgba(0,0,0,.3);
+    color: #fff;
+}
+
+.text-sombreado{
+    color: #fff;
+    font-size: 15vw;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    text-shadow: 
+    2px 2px 0 #000,
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}

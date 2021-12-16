@@ -8,12 +8,21 @@
     padding-left: 1rem;
     padding-right: 2rem;
     margin-bottom: 5rem;
+        ul{
+        font-size: 1rem;
+        padding: 0px;
+        }
+        h3{
+        @extend %subtitulo;
+        }
         h2 { 
             @extend %subtitulo;
             border-bottom-color: $fontColorPrimario;
             border-bottom-style: solid;
         }
 }
+
+
 
 .flex-container{
     @include flex-style(flex-start,flex-start,wrap,100%);
