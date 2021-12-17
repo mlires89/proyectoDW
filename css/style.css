@@ -134,12 +134,19 @@ section#contacto {
   text-align: center;
 }
 
-header nav ul li {
-  display: inline-block;
-  padding-right: 1rem;
-  padding-top: 1rem;
+/*
+header {
+    nav { 
+        ul{
+            li {
+                display:inline-block;
+                padding-right: 1rem;
+                padding-top: 1rem;
+            }
+        }
+    }
 }
-
+*/
 @keyframes aparecer {
   0% {
     opacity: 0;

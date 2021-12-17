@@ -15,5 +15,9 @@
     "url": "https://github.com/mlires89/proyectoDW/issues"
   },
   "homepage": "https://github.com/mlires89/proyectoDW#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
