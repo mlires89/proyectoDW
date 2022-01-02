@@ -5,9 +5,9 @@
 .seccion#menu{
     background-image: url("../multimedia/imagen/bg-menu.png") ;
     background-repeat: repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
         li{
             text-decoration: solid;
         }
 }
-
 

@@ -33,7 +33,7 @@ body {
   padding-top: 4rem;
   padding-left: 1rem;
   padding-right: 2rem;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 .seccion ul {
   font-size: 1rem;
@@ -99,6 +99,7 @@ section#contacto {
 
 .bg-transparente {
   background: rgba(0, 0, 0, 0.6);
+  color: aliceblue;
 }
 
 /*Encabezado*/
@@ -221,6 +222,7 @@ header {
 .seccion#menu {
   background-image: url("../multimedia/imagen/bg-menu.png");
   background-repeat: repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
 .seccion#menu li {
   text-decoration: solid;
