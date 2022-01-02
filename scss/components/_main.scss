@@ -12,9 +12,6 @@
         font-size: 1rem;
         padding: 0px;
         }
-        h3{
-        @extend %subtitulo;
-        }
         h2 { 
             @extend %subtitulo;
             border-bottom-color: $fontColorPrimario;
@@ -22,7 +19,10 @@
         }
 }
 
-
+.subtitulo{
+    @extend %subtitulo;
+    font-size: 0.9rem;
+}
 
 .flex-container{
     @include flex-style(flex-start,flex-start,wrap,100%);

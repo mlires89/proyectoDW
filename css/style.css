@@ -15,13 +15,13 @@ body {
   background-color: #eff3f4;
 }
 
-.seccion h2, .seccion h3 {
+.subtitulo, .seccion h2 {
   font-family: "Rubik", sans-serif;
   color: #1066c9;
   font-size: 0.9rem;
 }
 
-.seccion h2, .seccion h3 {
+.subtitulo, .seccion h2 {
   font-family: "Rubik", sans-serif;
   color: #1066c9;
   font-size: 0.9rem;
@@ -42,6 +42,10 @@ body {
 .seccion h2 {
   border-bottom-color: #f05aa0;
   border-bottom-style: solid;
+}
+
+.subtitulo {
+  font-size: 0.9rem;
 }
 
 .flex-container {
@@ -184,6 +188,8 @@ header {
 
 .sombreado {
   text-shadow: 5px 5px 5px gray;
+  color: aliceblue;
+  font-size: 1rem;
 }
 
 /*Seccion novedades*/
@@ -213,7 +219,7 @@ header {
 }
 
 /*Seccion Menu*/
-.seccion h3, .seccion h2 {
+.seccion h2, .subtitulo {
   font-family: "Rubik", sans-serif;
   color: #1066c9;
   font-size: 0.9rem;
