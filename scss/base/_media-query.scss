@@ -1,5 +1,11 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .oculto-md {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .oculto-l {
       display: none;
     }
   }
