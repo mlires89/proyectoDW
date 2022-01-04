@@ -261,6 +261,7 @@ header {
 .social-item {
   display: flex;
   padding: 0.5rem;
+  color: #f05aa0;
 }
 
 .icono {
@@ -275,6 +276,7 @@ header {
 
 ion-icon {
   font-size: 1.5rem;
+  color: #f05aa0;
 }
 
 /*# sourceMappingURL=style.css.map */

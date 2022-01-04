@@ -29,6 +29,7 @@
 .social-item{
     display: flex;    
     padding: 00.5rem;
+    color: $fontColorPrimario;
    
 }
 
@@ -44,4 +45,6 @@
 
 ion-icon {
             font-size: 1.5rem;
+            color:$fontColorPrimario;
 }
+
